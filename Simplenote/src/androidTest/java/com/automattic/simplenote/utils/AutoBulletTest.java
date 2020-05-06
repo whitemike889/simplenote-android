@@ -41,7 +41,7 @@ public class AutoBulletTest {
         Editable editable = buildEditable(source);
         AutoBullet.apply(editable, oldPos, newPos);
 
-        assertThat(editable.toString(), is(target));
+        assertThat(editable.toString(), is("abc"));
     }
 
     @Test
