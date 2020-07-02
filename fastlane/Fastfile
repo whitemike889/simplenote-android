@@ -41,7 +41,7 @@ SUPPORTED_LOCALES = [
 
 ########################################################################
 # Release Lanes
-########################################################################  
+########################################################################
   #####################################################################################
   # code_freeze
   # -----------------------------------------------------------------------------------
@@ -51,14 +51,14 @@ SUPPORTED_LOCALES = [
   # bundle exec fastlane code_freeze [update_release_branch_version:<update flag>] [skip_confirm:<skip confirm>]
   #
   # Example:
-  # bundle exec fastlane code_freeze 
+  # bundle exec fastlane code_freeze
   # bundle exec fastlane code_freeze update_release_branch_version:false
   # bundle exec fastlane code_freeze skip_confirm:true
   #####################################################################################
   desc "Creates a new release branch from the current develop"
   lane :code_freeze do | options |
     old_version = android_codefreeze_prechecks(options)
-   
+
     android_bump_version_release()
     new_version = android_get_app_version()
     android_update_release_notes(new_version: new_version)
@@ -72,7 +72,7 @@ SUPPORTED_LOCALES = [
   end
 
   #####################################################################################
-  # update_appstore_strings 
+  # update_appstore_strings
   # -----------------------------------------------------------------------------------
   # This lane gets the data from the txt files in the Simplenote/metadata/ folder
   # and updates the .po file that is then picked by GlotPress for translations.
@@ -84,7 +84,7 @@ SUPPORTED_LOCALES = [
   # fastlane update_appstore_strings version:10.3
   #####################################################################################
   desc "Updates the PlayStoreStrings.po file"
-  lane :update_appstore_strings do |options| 
+  lane :update_appstore_strings do |options|
     prj_folder = Dir.pwd + "/.."
 
     files = {
@@ -94,10 +94,10 @@ SUPPORTED_LOCALES = [
       play_store_app_title: prj_folder + "/Simplenote/metadata/title.txt"
     }
 
-    an_update_metadata_source(po_file_path: prj_folder + "/Simplenote/metadata/PlayStoreStrings.pot", 
-      source_files: files, 
+    an_update_metadata_source(po_file_path: prj_folder + "/Simplenote/metadata/PlayStoreStrings.pot",
+      source_files: files,
       release_version: options[:version])
-  end 
+  end
 
   #####################################################################################
   # new_beta_release
@@ -125,7 +125,7 @@ SUPPORTED_LOCALES = [
   #####################################################################################
   # new_hotfix_release
   # -----------------------------------------------------------------------------------
-  # This lane updates the release branch for a new hotix release. 
+  # This lane updates the release branch for a new hotix release.
   # -----------------------------------------------------------------------------------
   # Usage:
   # bundle exec fastlane new_hotfix_release [skip_confirm:<skip confirm>] [version:<version>]
@@ -147,11 +147,11 @@ SUPPORTED_LOCALES = [
   # This lane finalize a release: updates store metadata and runs the release checks
   # -----------------------------------------------------------------------------------
   # Usage:
-  # bundle exec fastlane finalize_release [skip_confirm:<skip confirm>] 
+  # bundle exec fastlane finalize_release [skip_confirm:<skip confirm>]
   #
   # Example:
-  # bundle exec fastlane finalize_release 
-  # bundle exec fastlane finalize_release skip_confirm:true 
+  # bundle exec fastlane finalize_release
+  # bundle exec fastlane finalize_release skip_confirm:true
   #####################################################################################
   desc "Updates store metadata and runs the release checks"
   lane :finalize_release do | options |
@@ -168,22 +168,22 @@ SUPPORTED_LOCALES = [
     setfrozentag(repository:GHHELPER_REPO, milestone: version["name"], freeze: false)
     close_milestone(repository:GHHELPER_REPO, milestone: version["name"])
   end
-  
+
   #####################################################################################
   # build_pre_releases
   # -----------------------------------------------------------------------------------
-  # This lane builds the app it for both internal and external distribution 
+  # This lane builds the app it for both internal and external distribution
   # -----------------------------------------------------------------------------------
   # Usage:
   # bundle exec fastlane build_pre_releases [skip_confirm:<skip confirm>]
   #
   # Example:
-  # bundle exec fastlane build_pre_releases 
-  # bundle exec fastlane build_pre_releases skip_confirm:true 
+  # bundle exec fastlane build_pre_releases
+  # bundle exec fastlane build_pre_releases skip_confirm:true
   #####################################################################################
   desc "Builds and updates for distribution"
   lane :build_pre_releases do | options |
-    android_build_prechecks(skip_confirm: options[:skip_confirm], 
+    android_build_prechecks(skip_confirm: options[:skip_confirm],
       alpha: false,
       beta: true,
       final: false)
@@ -194,14 +194,14 @@ SUPPORTED_LOCALES = [
   #####################################################################################
   # build_beta
   # -----------------------------------------------------------------------------------
-  # This lane builds the app it for internal testing  
+  # This lane builds the app it for internal testing
   # -----------------------------------------------------------------------------------
   # Usage:
   # bundle exec fastlane build_beta [skip_confirm:<skip confirm>]
   #
   # Example:
-  # bundle exec fastlane build_beta 
-  # bundle exec fastlane build_beta skip_confirm:true 
+  # bundle exec fastlane build_beta
+  # bundle exec fastlane build_beta skip_confirm:true
   #####################################################################################
   desc "Builds and updates for distribution"
   lane :build_beta do | options |
@@ -216,23 +216,23 @@ SUPPORTED_LOCALES = [
   #####################################################################################
   # build_release
   # -----------------------------------------------------------------------------------
-  # This lane builds the final release of the app and uploads it 
+  # This lane builds the final release of the app and uploads it
   # -----------------------------------------------------------------------------------
   # Usage:
   # bundle exec fastlane build_release [skip_confirm:<skip confirm>]
   #
   # Example:
-  # bundle exec fastlane build_release 
-  # bundle exec fastlane build_release skip_confirm:true 
+  # bundle exec fastlane build_release
+  # bundle exec fastlane build_release skip_confirm:true
   #####################################################################################
   desc "Builds and updates for distribution"
   lane :build_release do | options |
-    android_build_prechecks(skip_confirm: options[:skip_confirm], 
+    android_build_prechecks(skip_confirm: options[:skip_confirm],
       alpha: false,
       beta: false,
       final: true)
     android_build_preflight()
-    
+
     # Create the file names
     version=android_get_release_version()
     build_apk(version: version, flavor:"Vanilla")
@@ -240,14 +240,14 @@ SUPPORTED_LOCALES = [
 
 ########################################################################
 # Helper Lanes
-########################################################################  
+########################################################################
   desc "Get a list of pull request from `start_tag` to the current state"
   lane :get_pullrequests_list do | options |
     get_prs_list(repository:GHHELPER_REPO, start_tag:"#{options[:start_tag]}", report_path:"#{File.expand_path('~')}/simplenoteandroid_prs_list.txt")
   end
 
   #####################################################################################
-  # download_metadata_string 
+  # download_metadata_string
   # -----------------------------------------------------------------------------------
   # This lane downloads the translated metadata (release notes,
   # app store strings, title, etc.) from GlotPress and updates the local files
@@ -259,7 +259,7 @@ SUPPORTED_LOCALES = [
   # fastlane download_metadata_string build_number:573 version:10.3
   #####################################################################################
   desc "Downloads translated metadata from GlotPress"
-  lane :download_metadata_strings do |options| 
+  lane :download_metadata_strings do |options|
     values = options[:version].split('.')
     files = {
       "release_note_#{values[0].to_s.rjust(2, "0")}#{values[1]}" => {desc: "changelogs/#{options[:build_number]}.txt", max_size: 0},
@@ -270,16 +270,16 @@ SUPPORTED_LOCALES = [
 
     delete_old_changelogs(build: options[:build_number])
     download_path=Dir.pwd + "/metadata/android"
-    gp_downloadmetadata(project_url: "https://translate.wordpress.com/projects/simplenote/android/release-notes/", 
-      target_files: files, 
+    gp_downloadmetadata(project_url: "https://translate.wordpress.com/projects/simplenote/android/release-notes/",
+      target_files: files,
       locales: SUPPORTED_LOCALES.map {| hsh | [ hsh[:glotpress], hsh[:google_play] ]},
       source_locale: "en-US",
       download_path: download_path)
-    
+
     android_create_xml_release_notes(download_path: download_path, build_number: "#{options[:build_number]}", locales: SUPPORTED_LOCALES.map {| hsh | [ hsh[:glotpress], hsh[:google_play] ]})
     add_us_release_notes(relese_notes_path: download_path + "/release_notes.xml", version_name: options[:version])
     sh("git add #{download_path} && (git diff-index --quiet HEAD || git commit -m \"Update metadata translations for #{options[:version]}\") && git push")
-  end 
+  end
 
   #####################################################################################
   # build_bundle
@@ -378,7 +378,7 @@ SUPPORTED_LOCALES = [
 
   private_lane :add_us_release_notes do | options |
     en_release_notes_path  = Dir.pwd + "/.." + "/Simplenote/metadata/release_notes.txt"
-    File.open(options[:relese_notes_path], "a") { |f| 
+    File.open(options[:relese_notes_path], "a") { |f|
       f.puts("<en-US>")
       f.puts("#{options[:version_name]}:")
       f.puts(File.open(en_release_notes_path).read)
@@ -386,7 +386,7 @@ SUPPORTED_LOCALES = [
     }
   end
 
-  private_lane :send_strings_for_translation do | options |
+  lane :send_strings_for_translation do | options |
     sh("cd .. && mkdir -p #{update_strings_path} && cp #{main_strings_path} #{update_strings_path} && git add #{update_strings_path}strings.xml")
     sh("git diff-index --quiet HEAD || git commit -m \"Send strings to translation.\"")
     sh("git push origin HEAD")
