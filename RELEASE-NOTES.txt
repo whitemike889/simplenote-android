@@ -1,13 +1,6 @@
-2.9
------
- 
-2.9
------
- 
 2.8
 -----
-* Added hotkey shortcuts for devices with hardware keyboards
-* Added right-to-left language support to markdown preview
+* Test entry from Gio
 
 2.7
 -----
