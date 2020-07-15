@@ -1,6 +1,9 @@
 2.9
 -----
  
+2.9
+-----
+ 
 2.8
 -----
 * Added hotkey shortcuts for devices with hardware keyboards
