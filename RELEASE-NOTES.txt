@@ -2,6 +2,10 @@
 // Another comment
 // Next, an empty line
 
+123.7
+-----
+
+
 123.6
 -----
 
