@@ -24,6 +24,10 @@ ENV["PROJECT_ROOT_FOLDER"]="./"
 ENV["PROJECT_NAME"]="Simplenote"
 ENV["validate_translations"]="buildRelease"
 
+lane :test do
+  android_update_metadata
+end
+
 SUPPORTED_LOCALES = [
   { glotpress: "ar", google_play: "ar",  promo_config: {}},
   { glotpress: "de", google_play: "de-DE",  promo_config: {} },
