@@ -16,8 +16,8 @@
     <string name="rename_tag">Rename Tag</string>
     <string name="rename_tag_error_empty">Tags cannot be empty</string>
     <string name="rename_tag_error_length">Tag length too long</string>
-    <string name="rename_tag_error_spaces">Tags cannot contain spaces</string>
-    <string name="rename_tag_message">An error occurred renaming the tag. Please, try again. If the problem continues, contact us at %1$s%2$s%3$s%4$s%5$s for help.</string>
+    <string name="rename_tag_error_spaces" formatted="false">Tags cannot contain spaces</string>
+    <string name="rename_tag_message" formatted="false">An error occurred renaming the tag. Please, try again. If the problem continues, contact us at %1$s%2$s%3$s%4$s%5$s for help.</string>
     <string name="rename_tag_message_length">The tag length is too long. Please, try again with a shorter name. If the problem continues, contact us at %1$s%2$s%3$s%4$s%5$s for help.</string>
     <string name="tag_name">Tag name</string>
     <string name="delete_tag">Delete Tag</string>
