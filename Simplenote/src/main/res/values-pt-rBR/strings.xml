@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Translation-Revision-Date: 2021-03-23 14:54:04+0000
 Plural-Forms: nplurals=2; plural=(n > 1);
@@ -26,11 +26,11 @@ Language: pt_BR
     <string name="toast_email_sent">E-mail enviado</string>
     <string name="fullscreen_verify_email_button_secondary">Reenviar e-mail</string>
     <string name="fullscreen_verify_email_title">Verificar seu e-mail</string>
-    <string name="fullscreen_verify_email_subtitle">Enviamos um e-mail de verificação para &lt;b>%1$s&lt;/b>. Confira sua caixa de entrada e siga as instruções.</string>
+    <string name="fullscreen_verify_email_subtitle">Enviamos um e-mail de verificação para &lt;b&gt;%1$s&lt;/b&gt;. Confira sua caixa de entrada e siga as instruções.</string>
     <string name="fullscreen_review_account_button_secondary">Alterar e-mail</string>
     <string name="fullscreen_review_account_button_primary">Confirmar</string>
     <string name="fullscreen_review_account_title">Revisar sua conta</string>
-    <string name="fullscreen_review_account_subtitle">Você está registrado no Simplenote com o e-mail &lt;b>%1$s&lt;/b>.&lt;br>&lt;br>Com as melhorias de segurança, você poderá perder sua conta se não tiver mais acesso a esse endereço de e-mail.</string>
+    <string name="fullscreen_review_account_subtitle">Você está registrado no Simplenote com o e-mail &lt;b&gt;%1$s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Com as melhorias de segurança, você poderá perder sua conta se não tiver mais acesso a esse endereço de e-mail.</string>
     <string name="description_warning">Atenção</string>
     <string name="description_mail">E-mail</string>
     <string name="description_close">Fechar</string>
@@ -56,10 +56,10 @@ Language: pt_BR
     <string name="tag_error_exists">A tag já existe</string>
     <string name="tag_error_empty">As tags não podem estar vazias</string>
     <string name="dialog_tag_error_message">Ocorreu um erro ao adicionar a tag. Tente novamente. Se o problema continuar, entre em contato conosco em %1$s%2$s%3$s%4$s%5$s para obter ajuda.</string>
-    <string name="dialog_tag_add_title">@string/add_tag</string>
-    <string name="dialog_tag_add_hint">@string/tag_name</string>
-    <string name="dialog_tag_add_button_positive">@string/save</string>
-    <string name="dialog_tag_add_button_negative">@android:string/cancel</string>
+    <string name="dialog_tag_add_title">\@string/add_tag</string>
+    <string name="dialog_tag_add_hint">\@string/tag_name</string>
+    <string name="dialog_tag_add_button_positive">\@string/save</string>
+    <string name="dialog_tag_add_button_negative">\@android:string/cancel</string>
     <string name="add_tag">Adicionar tag</string>
     <string name="empty_tags_hint">Quando você adicionar tags às suas anotações, as tags aparecerão aqui.</string>
     <string name="membership_premium">Premium</string>
@@ -105,8 +105,8 @@ Language: pt_BR
     <string name="export_message_failure">Não foi possível salvar os dados</string>
     <string name="export_file">simplenote.json</string>
     <string name="rename_tag_message_length">O comprimento da tag é muito longo. Tente novamente com um nome mais curto. Se o problema continuar, entre em contato conosco em %1$s%2$s%3$s%4$s%5$s para ajuda.</string>
-    <string name="rename_tag_message">Houve um erro ao renomear a tag. Tente novamente. Se o problema continuar, entre em contato conosco em %1$s%2$s%3$s%4$s%5$s para ajuda.</string>
-    <string name="rename_tag_error_spaces">Tags não podem ter espaços</string>
+    <string name="rename_tag_message" formatted="false">Houve um erro ao renomear a tag. Tente novamente. Se o problema continuar, entre em contato conosco em %1$s%2$s%3$s%4$s%5$s para ajuda.</string>
+    <string name="rename_tag_error_spaces" formatted="false">Tags não podem ter espaços</string>
     <string name="rename_tag_error_length">Comprimento da tag é muito longo</string>
     <string name="rename_tag_error_empty">Tags não podem estar vazias</string>
     <string name="simperium_url">http://simplenote.com</string>
@@ -190,7 +190,7 @@ Language: pt_BR
     <string name="search_hint">Pesquisar anotações ou tags</string>
     <string name="log_out">Fazer logout</string>
     <string name="log_in">Fazer login</string>
-    <string name="simperium_title">@string/app_name</string>
+    <string name="simperium_title">\@string/app_name</string>
     <string name="simperium_subtitle">A melhor forma de manter notas.</string>
     <string name="simperium_hint_password">Senha</string>
     <string name="simperium_hint_email">E-mail</string>

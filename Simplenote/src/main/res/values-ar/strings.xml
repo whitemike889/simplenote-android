@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Translation-Revision-Date: 2021-03-23 14:54:05+0000
 Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;
@@ -26,11 +26,11 @@ Language: ar
     <string name="toast_email_sent">تم إرسال رسالة عبر البريد الإلكتروني</string>
     <string name="fullscreen_verify_email_button_secondary">إعادة إرسال بريد إلكتروني</string>
     <string name="fullscreen_verify_email_title">التحقُّق من بريدك الإلكتروني</string>
-    <string name="fullscreen_verify_email_subtitle">أرسلنا رسالة بريد إلكتروني خاصة بالتحقق إلى &lt;b>%1$s&lt;/b>. يرجى التحقُّق من علبة الوارد لديك واتباع الإرشادات.</string>
+    <string name="fullscreen_verify_email_subtitle">أرسلنا رسالة بريد إلكتروني خاصة بالتحقق إلى &lt;b&gt;%1$s&lt;/b&gt;. يرجى التحقُّق من علبة الوارد لديك واتباع الإرشادات.</string>
     <string name="fullscreen_review_account_button_secondary">تغيير البريد الإلكتروني</string>
     <string name="fullscreen_review_account_button_primary">تأكيد</string>
     <string name="fullscreen_review_account_title">مراجعة حسابك</string>
-    <string name="fullscreen_review_account_subtitle">لقد قمت بالتسجيل في Simplenote باستخدام البريد الإلكتروني &lt;b>%1$s&lt;/b>.&lt;br>&lt;br>قد تؤدي التحسينات التي يتم إجراؤها على أمان الحساب إلى فقدان الحساب إذا لم يعد لديك حق الوصول إلى عنوان البريد الإلكتروني هذا.</string>
+    <string name="fullscreen_review_account_subtitle">لقد قمت بالتسجيل في Simplenote باستخدام البريد الإلكتروني &lt;b&gt;%1$s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;قد تؤدي التحسينات التي يتم إجراؤها على أمان الحساب إلى فقدان الحساب إذا لم يعد لديك حق الوصول إلى عنوان البريد الإلكتروني هذا.</string>
     <string name="description_warning">تحذير</string>
     <string name="description_mail">البريد الإلكتروني</string>
     <string name="description_close">إغلاق</string>
@@ -56,10 +56,10 @@ Language: ar
     <string name="tag_error_exists">يوجد وسم بالفعل</string>
     <string name="tag_error_empty">يتعذر أن تكون الوسوم فارغة</string>
     <string name="dialog_tag_error_message">حدث خطأ في أثناء إضافة الوسم. يُرجى المحاولة مرة أخرى. إذا استمرت المشكلة، فاتصل بنا على ⁦%1$s⁩%2$s%3$s%4$s⁦%5$s⁩ للحصول على المساعدة.</string>
-    <string name="dialog_tag_add_title">@string/add_tag</string>
-    <string name="dialog_tag_add_hint">@string/tag_name</string>
-    <string name="dialog_tag_add_button_positive">@string/save</string>
-    <string name="dialog_tag_add_button_negative">@android:string/cancel</string>
+    <string name="dialog_tag_add_title">\@string/add_tag</string>
+    <string name="dialog_tag_add_hint">\@string/tag_name</string>
+    <string name="dialog_tag_add_button_positive">\@string/save</string>
+    <string name="dialog_tag_add_button_negative">\@android:string/cancel</string>
     <string name="add_tag">إضافة وسم</string>
     <string name="empty_tags_hint">بمجرد أن تقوم بإضافة الوسوم إلى ملاحظاتك، ستظهر وسومك هنا.</string>
     <string name="membership_premium">الإصدار المميز</string>
@@ -105,8 +105,8 @@ Language: ar
     <string name="export_message_failure">يتعذر حفظ البيانات</string>
     <string name="export_file">simplenote.json</string>
     <string name="rename_tag_message_length">الوسم طويل للغاية. يُرجى المحاولة مرة أخرى باسم أقصر. إذا استمرت المشكلة، فاتصل بنا على ⁦%1$s⁩%2$s%3$s%4$s⁦%5$s⁩ للحصول على المساعدة.</string>
-    <string name="rename_tag_message">حدث خطأ في أثناء إعادة تسمية الوسم. يُرجى المحاولة مرة أخرى. إذا استمرت المشكلة، فاتصل بنا على ⁦%1$s⁩%2$s%3$s%4$s⁦%5$s⁩ للحصول على المساعدة.</string>
-    <string name="rename_tag_error_spaces">يتعذر أن تحتوي الوسوم على مسافات</string>
+    <string name="rename_tag_message" formatted="false">حدث خطأ في أثناء إعادة تسمية الوسم. يُرجى المحاولة مرة أخرى. إذا استمرت المشكلة، فاتصل بنا على ⁦%1$s⁩%2$s%3$s%4$s⁦%5$s⁩ للحصول على المساعدة.</string>
+    <string name="rename_tag_error_spaces" formatted="false">يتعذر أن تحتوي الوسوم على مسافات</string>
     <string name="rename_tag_error_length">الوسم طويل للغاية.</string>
     <string name="rename_tag_error_empty">يتعذر أن تكون الوسوم فارغة</string>
     <string name="simperium_url">http://simplenote.com</string>
