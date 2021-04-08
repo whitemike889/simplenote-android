@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2021-02-18 11:54:03+0000
+Translation-Revision-Date: 2021-03-24 11:54:04+0000
 Plural-Forms: nplurals=1; plural=0;
 Generator: GlotPress/2.4.0-alpha
 Language: ko_KR
 -->
 <resources>
+    <string name="dialog_already_logged_in_message">이미 %1$s(으)로 로그인하셨습니다. 로그아웃하고 다시 시도하세요.</string>
+    <string name="dialog_already_logged_in_title">이미 로그인됨</string>
+    <string name="support_text">이메일을 받지 못하셨나요? 이미 계정이 있을 수도 있습니다. 도움말은 %1$s에 문의하세요.</string>
+    <string name="email_confirmation_text">%1$s(으)로 이메일을 보내드렸습니다. 받은 편지함을 확인하고 지침에 따라 주세요.</string>
+    <string name="dialog_message_signup_error">문제가 있습니다. 다시 시도해주세요.</string>
     <string name="dialog_browser_exception_toast_copy_success">URL이 클립보드에 복사됨</string>
     <string name="dialog_browser_exception_toast_copy_failure">URL을 클립보드에 복사할 수 없습니다.</string>
     <string name="dialog_browser_exception_title">링크 오류</string>

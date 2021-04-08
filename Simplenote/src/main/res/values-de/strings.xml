@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2021-02-19 17:24:44+0000
+Translation-Revision-Date: 2021-03-23 14:54:06+0000
 Plural-Forms: nplurals=2; plural=n != 1;
 Generator: GlotPress/2.4.0-alpha
 Language: de
 -->
 <resources>
+    <string name="dialog_already_logged_in_message">Du bist bereits als %1$s angemeldet. Melde dich ab und versuche es erneut.</string>
+    <string name="dialog_already_logged_in_title">Bereits angemeldet</string>
+    <string name="support_text">Du hast keine E-Mail bekommen? Vielleicht hast du schon ein Konto. Wende dich für Unterstützung an %1$s.</string>
+    <string name="email_confirmation_text">Wir haben eine E-Mail an %1$s gesendet. Sieh bitte in deinem Posteingang nach und befolge die Anweisungen.</string>
+    <string name="dialog_message_signup_error">Momentan gibt es ein paar Probleme. Bitte versuche es später erneut.</string>
     <string name="dialog_browser_exception_toast_copy_success">URL in Zwischenablage kopiert</string>
     <string name="dialog_browser_exception_toast_copy_failure">URL konnte nicht in die Zwischenablage kopiert werden</string>
     <string name="dialog_browser_exception_title">Link-Fehler</string>
