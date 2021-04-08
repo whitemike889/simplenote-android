@@ -28,6 +28,15 @@ lane :test do
   android_update_metadata
 end
 
+lane :download_translations do |options|
+  # Adapt the GP project URL if testing a project other than WordPress
+  android_download_translations(
+    glotpress_url: 'https://translate.wordpress.com/projects/simplenote/android',
+    locales: SUPPORTED_LOCALES,
+    lint_task: ENV['validate_translations']
+  )
+end
+
 SUPPORTED_LOCALES = [
   { glotpress: "ar", android: "ar", google_play: "ar",  promo_config: {}},
   { glotpress: "de", android: "de", google_play: "de-DE",  promo_config: {} },
