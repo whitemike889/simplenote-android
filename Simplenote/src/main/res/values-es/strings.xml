@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2021-02-18 11:54:04+0000
+Translation-Revision-Date: 2021-03-22 15:54:06+0000
 Plural-Forms: nplurals=2; plural=n != 1;
 Generator: GlotPress/2.4.0-alpha
 Language: es
 -->
 <resources>
+    <string name="dialog_already_logged_in_message">Has iniciado sesión como %1$s. Cierra sesión e inténtalo de nuevo.</string>
+    <string name="dialog_already_logged_in_title">Ya has iniciado sesión</string>
+    <string name="support_text">¿No has recibido un correo electrónico? Es posible que ya tengas una cuenta. Si necesitas ayuda, ponte en contacto con %1$s.</string>
+    <string name="email_confirmation_text">Hemos enviado un correo electrónico a %1$s. Revisa tu bandeja de entrada y sigue las instrucciones.</string>
+    <string name="dialog_message_signup_error">Estamos teniendo algunos problemas. Inténtalo de nuevo pronto.</string>
     <string name="dialog_browser_exception_toast_copy_success">URL copiada en el portapapeles</string>
     <string name="dialog_browser_exception_toast_copy_failure">La URL no se ha podido copiar en el portapapeles</string>
     <string name="dialog_browser_exception_title">Error del enlace</string>
