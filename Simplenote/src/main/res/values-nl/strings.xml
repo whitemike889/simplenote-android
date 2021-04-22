@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Translation-Revision-Date: 2021-03-24 17:54:04+0000
 Plural-Forms: nplurals=2; plural=n != 1;
@@ -26,11 +26,11 @@ Language: nl
     <string name="toast_email_sent">E-mail verzonden</string>
     <string name="fullscreen_verify_email_button_secondary">E-mail opnieuw verzenden</string>
     <string name="fullscreen_verify_email_title">Verifieer je e-mail</string>
-    <string name="fullscreen_verify_email_subtitle">We hebben een verificatiemail verzonden naar &lt;b>%1$s&lt;/b>. Controleer je postvak IN en volg de instructies.</string>
+    <string name="fullscreen_verify_email_subtitle">We hebben een verificatiemail verzonden naar &lt;b&gt;%1$s&lt;/b&gt;. Controleer je postvak IN en volg de instructies.</string>
     <string name="fullscreen_review_account_button_secondary">E-mail wijzigen</string>
     <string name="fullscreen_review_account_button_primary">Bevestigen</string>
     <string name="fullscreen_review_account_title">Controleer je account</string>
-    <string name="fullscreen_review_account_subtitle">Je staat geregistreerd bij Simplenote met het e-mailadres &lt;b>%1$s&lt;/b>.&lt;br>&lt;br>Verbeteringen aan accountbeveiliging kunnen leiden tot accountverlies als je geen toegang meer hebt tot dit e-mailadres.</string>
+    <string name="fullscreen_review_account_subtitle">Je staat geregistreerd bij Simplenote met het e-mailadres &lt;b&gt;%1$s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Verbeteringen aan accountbeveiliging kunnen leiden tot accountverlies als je geen toegang meer hebt tot dit e-mailadres.</string>
     <string name="description_warning">Waarschuwing</string>
     <string name="description_mail">Mail</string>
     <string name="description_close">Sluiten</string>
@@ -56,10 +56,10 @@ Language: nl
     <string name="tag_error_exists">Tag bestaat al</string>
     <string name="tag_error_empty">Tags mogen niet leeg zijn</string>
     <string name="dialog_tag_error_message">Fout opgetreden bij het toevoegen van de tag. Probeer het opnieuw. Neem contact met ons op via %1$s%2$s%3$s%4$s%5$s voor hulp als het probleem niet is opgelost.</string>
-    <string name="dialog_tag_add_title">@string/add_tag</string>
-    <string name="dialog_tag_add_hint">@string/tag_name</string>
-    <string name="dialog_tag_add_button_positive">@string/save</string>
-    <string name="dialog_tag_add_button_negative">@android:string/cancel</string>
+    <string name="dialog_tag_add_title">\@string/add_tag</string>
+    <string name="dialog_tag_add_hint">\@string/tag_name</string>
+    <string name="dialog_tag_add_button_positive">\@string/save</string>
+    <string name="dialog_tag_add_button_negative">\@android:string/cancel</string>
     <string name="add_tag">Tag toevoegen</string>
     <string name="empty_tags_hint">Zodra je tags toevoegt aan je notities, worden je tags hier weergegeven.</string>
     <string name="membership_premium">Premium</string>
@@ -105,8 +105,8 @@ Language: nl
     <string name="export_message_failure">Gegevens konden niet worden opgeslagen</string>
     <string name="export_file">simplenote.json</string>
     <string name="rename_tag_message_length">De tag is te lang. Probeer het opnieuw met een kortere naam. Neem contact met ons op via %1$s%2$s%3$s%4$s%5$s voor hulp als het probleem niet is opgelost.</string>
-    <string name="rename_tag_message">Fout opgetreden bij het hernoemen van de tag. Probeer het opnieuw. Neem contact met ons op via %1$s%2$s%3$s%4$s%5$s voor hulp als het probleem niet is opgelost.</string>
-    <string name="rename_tag_error_spaces">Tags mogen geen spaties bevatten</string>
+    <string name="rename_tag_message" formatted="false">Fout opgetreden bij het hernoemen van de tag. Probeer het opnieuw. Neem contact met ons op via %1$s%2$s%3$s%4$s%5$s voor hulp als het probleem niet is opgelost.</string>
+    <string name="rename_tag_error_spaces" formatted="false">Tags mogen geen spaties bevatten</string>
     <string name="rename_tag_error_length">Tag te lang</string>
     <string name="rename_tag_error_empty">Tags mogen niet leeg zijn</string>
     <string name="simperium_url">http://simplenote.com</string>
@@ -190,7 +190,7 @@ Language: nl
     <string name="search_hint">Notities of tags zoeken</string>
     <string name="log_out">Uitloggen</string>
     <string name="log_in">Inloggen</string>
-    <string name="simperium_title">@string/app_name</string>
+    <string name="simperium_title">\@string/app_name</string>
     <string name="simperium_subtitle">De eenvoudigste manier om notities bij te houden.</string>
     <string name="simperium_hint_password">Wachtwoord</string>
     <string name="simperium_hint_email">E-mail</string>

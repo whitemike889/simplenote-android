@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Translation-Revision-Date: 2021-03-24 11:54:04+0000
 Plural-Forms: nplurals=2; plural=(n > 1);
@@ -26,11 +26,11 @@ Language: tr
     <string name="toast_email_sent">E-posta gönderildi</string>
     <string name="fullscreen_verify_email_button_secondary">E-postayı tekrar gönder</string>
     <string name="fullscreen_verify_email_title">E-posta Adresinizi Doğrulayın</string>
-    <string name="fullscreen_verify_email_subtitle">&lt;b>%1$s&lt;/b> adresine bir doğrulama e-postası gönderdik. Lütfen gelen kutunuzu kontrol edip talimatları izleyin.</string>
+    <string name="fullscreen_verify_email_subtitle">&lt;b&gt;%1$s&lt;/b&gt; adresine bir doğrulama e-postası gönderdik. Lütfen gelen kutunuzu kontrol edip talimatları izleyin.</string>
     <string name="fullscreen_review_account_button_secondary">E-posta değiştir</string>
     <string name="fullscreen_review_account_button_primary">Onayla</string>
     <string name="fullscreen_review_account_title">Hesabınızı İnceleyin</string>
-    <string name="fullscreen_review_account_subtitle">&lt;b>%1$s&lt;/b> e-postasını kullanarak Simplenote\'a kayıt oldunuz.&lt;br>&lt;br>Bu e-posta adresine artık erişiminiz yoksa, hesap güvenliğindeki iyileştirmeler hesap kaybına neden olabilir.</string>
+    <string name="fullscreen_review_account_subtitle">&lt;b&gt;%1$s&lt;/b&gt; e-postasını kullanarak Simplenote\'a kayıt oldunuz.&lt;br&gt;&lt;br&gt;Bu e-posta adresine artık erişiminiz yoksa, hesap güvenliğindeki iyileştirmeler hesap kaybına neden olabilir.</string>
     <string name="description_warning">Uyarı</string>
     <string name="description_mail">Posta</string>
     <string name="description_close">Kapat</string>
@@ -56,10 +56,10 @@ Language: tr
     <string name="tag_error_exists">Etiket zaten var</string>
     <string name="tag_error_empty">Etiketler boş olamaz</string>
     <string name="dialog_tag_error_message">Etiketi eklerken bir hata oluştu. Lütfen tekrar deneyin. Sorun devam ederse yardım için %1$s%2$s%3$s%4$s%5$s adresinden bize ulaşın.</string>
-    <string name="dialog_tag_add_title">@string/add_tag</string>
-    <string name="dialog_tag_add_hint">@string/tag_name</string>
-    <string name="dialog_tag_add_button_positive">@string/save</string>
-    <string name="dialog_tag_add_button_negative">@android:string/cancel</string>
+    <string name="dialog_tag_add_title">\@string/add_tag</string>
+    <string name="dialog_tag_add_hint">\@string/tag_name</string>
+    <string name="dialog_tag_add_button_positive">\@string/save</string>
+    <string name="dialog_tag_add_button_negative">\@android:string/cancel</string>
     <string name="add_tag">Etiket ekle</string>
     <string name="empty_tags_hint">Notlarınıza eklediğiniz etiketler burada görünür.</string>
     <string name="membership_premium">Premium</string>
@@ -105,8 +105,8 @@ Language: tr
     <string name="export_message_failure">Veriler kaydedilemedi</string>
     <string name="export_file">simplenote.json</string>
     <string name="rename_tag_message_length">Etiket uzunluğu çok fazla. Lütfen daha kısa bir ad kullanarak tekrar deneyin. Sorun devam ederse yardım için %1$s%2$s%3$s%4$s%5$s adresinden bize ulaşın.</string>
-    <string name="rename_tag_message">Etiketi yeniden adlandırırken bir hata oluştu. Lütfen tekrar deneyin. Sorun devam ederse yardım için %1$s%2$s%3$s%4$s%5$s adresinden bize ulaşın.</string>
-    <string name="rename_tag_error_spaces">Etiketler boşluk içeremez</string>
+    <string name="rename_tag_message" formatted="false">Etiketi yeniden adlandırırken bir hata oluştu. Lütfen tekrar deneyin. Sorun devam ederse yardım için %1$s%2$s%3$s%4$s%5$s adresinden bize ulaşın.</string>
+    <string name="rename_tag_error_spaces" formatted="false">Etiketler boşluk içeremez</string>
     <string name="rename_tag_error_length">Etiket uzunluğu çok fazla</string>
     <string name="rename_tag_error_empty">Etiketler boş olamaz</string>
     <string name="simperium_url">http://simplenote.com</string>
@@ -190,7 +190,7 @@ Language: tr
     <string name="search_hint">Not ve etiket ara</string>
     <string name="log_out">Oturumu kapat</string>
     <string name="log_in">Oturum aç</string>
-    <string name="simperium_title">@string/app_name</string>
+    <string name="simperium_title">\@string/app_name</string>
     <string name="simperium_subtitle">Not tutmanın en basit yolu.</string>
     <string name="simperium_hint_password">Parola</string>
     <string name="simperium_hint_email">E-posta</string>

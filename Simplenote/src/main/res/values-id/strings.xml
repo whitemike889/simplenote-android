@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Translation-Revision-Date: 2021-03-24 09:54:04+0000
 Plural-Forms: nplurals=2; plural=n > 1;
@@ -26,11 +26,11 @@ Language: id
     <string name="toast_email_sent">Email terkirim</string>
     <string name="fullscreen_verify_email_button_secondary">Kirim ulang email</string>
     <string name="fullscreen_verify_email_title">Verifikasi Email Anda</string>
-    <string name="fullscreen_verify_email_subtitle">Kami telah mengirimkan email verifikasi ke &lt;b>%1$s&lt;/b>. Harap periksa kotak masuk Anda dan ikuti instruksi berikut.</string>
+    <string name="fullscreen_verify_email_subtitle">Kami telah mengirimkan email verifikasi ke &lt;b&gt;%1$s&lt;/b&gt;. Harap periksa kotak masuk Anda dan ikuti instruksi berikut.</string>
     <string name="fullscreen_review_account_button_secondary">Ubah email</string>
     <string name="fullscreen_review_account_button_primary">Konfirmasi</string>
     <string name="fullscreen_review_account_title">Tinjau Akun Anda</string>
-    <string name="fullscreen_review_account_subtitle">Anda terdaftar pada SImplenote menggunakan email &lt;b>%1$s&lt;/b>.&lt;br>&lt;br>Peningkatan keamanan akun dapat menyebabkan akun hilang jika Anda tidak lagi memiliki akses ke alamat email ini.</string>
+    <string name="fullscreen_review_account_subtitle">Anda terdaftar pada SImplenote menggunakan email &lt;b&gt;%1$s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Peningkatan keamanan akun dapat menyebabkan akun hilang jika Anda tidak lagi memiliki akses ke alamat email ini.</string>
     <string name="description_warning">Peringatan</string>
     <string name="description_mail">Surat</string>
     <string name="description_close">Tutup</string>
@@ -56,10 +56,10 @@ Language: id
     <string name="tag_error_exists">Tag sudah ada</string>
     <string name="tag_error_empty">Tag tidak boleh kosong</string>
     <string name="dialog_tag_error_message">Terjadi kesalahan saat menambahkan tag. Harap coba lagi. Jika masalah berlanjut, hubungi kami di %1$s%2$s%3$s%4$s%5$s untuk mendapatkan bantuan.</string>
-    <string name="dialog_tag_add_title">@string/add_tag</string>
-    <string name="dialog_tag_add_hint">@string/tag_name</string>
-    <string name="dialog_tag_add_button_positive">@string/save</string>
-    <string name="dialog_tag_add_button_negative">@android:string/cancel</string>
+    <string name="dialog_tag_add_title">\@string/add_tag</string>
+    <string name="dialog_tag_add_hint">\@string/tag_name</string>
+    <string name="dialog_tag_add_button_positive">\@string/save</string>
+    <string name="dialog_tag_add_button_negative">\@android:string/cancel</string>
     <string name="add_tag">Tambahkan Tag</string>
     <string name="empty_tags_hint">Setelah Anda menambahkan tag ke catatan, tag akan muncul di sini.</string>
     <string name="membership_premium">Premium</string>
@@ -105,8 +105,8 @@ Language: id
     <string name="export_message_failure">Data tidak dapat disimpan</string>
     <string name="export_file">simplenote.json</string>
     <string name="rename_tag_message_length">Tag terlalu panjang.  Coba lagi dengan tag yang lebih pendek. Jika masalah berlanjut, hubungi kami di %1$s%2$s%3$s%4$s%5$s untuk mendapatkan bantuan.</string>
-    <string name="rename_tag_message">Terjadi kesalahan saat mengubah nama tag. Harap coba lagi. Jika masalah berlanjut, hubungi kami di %1$s%2$s%3$s%4$s%5$s untuk mendapatkan bantuan.</string>
-    <string name="rename_tag_error_spaces">Tag tidak boleh berisi spasi</string>
+    <string name="rename_tag_message" formatted="false">Terjadi kesalahan saat mengubah nama tag. Harap coba lagi. Jika masalah berlanjut, hubungi kami di %1$s%2$s%3$s%4$s%5$s untuk mendapatkan bantuan.</string>
+    <string name="rename_tag_error_spaces" formatted="false">Tag tidak boleh berisi spasi</string>
     <string name="rename_tag_error_length">Tag terlalu panjang</string>
     <string name="rename_tag_error_empty">Tag tidak boleh kosong</string>
     <string name="simperium_url">http://simplenote.com</string>
@@ -190,7 +190,7 @@ Language: id
     <string name="search_hint">Cari catatan atau tag</string>
     <string name="log_out">Logout</string>
     <string name="log_in">Login</string>
-    <string name="simperium_title">@string/app_name</string>
+    <string name="simperium_title">\@string/app_name</string>
     <string name="simperium_subtitle">Cara paling mudah menyimpan catatan.</string>
     <string name="simperium_hint_password">Kata Sandi</string>
     <string name="simperium_hint_email">Email</string>
