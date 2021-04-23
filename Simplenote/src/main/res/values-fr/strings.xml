@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Translation-Revision-Date: 2021-03-24 13:54:03+0000
 Plural-Forms: nplurals=2; plural=n > 1;
@@ -26,11 +26,11 @@ Language: fr
     <string name="toast_email_sent">E-mail envoyé</string>
     <string name="fullscreen_verify_email_button_secondary">Renvoyer l’e-mail</string>
     <string name="fullscreen_verify_email_title">Vérifiez votre messagerie</string>
-    <string name="fullscreen_verify_email_subtitle">Nous avons envoyé un e-mail de vérification à &lt;b>%1$s&lt;/b>. Consultez votre boîte de réception et suivez les instructions.</string>
+    <string name="fullscreen_verify_email_subtitle">Nous avons envoyé un e-mail de vérification à &lt;b&gt;%1$s&lt;/b&gt;. Consultez votre boîte de réception et suivez les instructions.</string>
     <string name="fullscreen_review_account_button_secondary">Changez d’adresse e-mail</string>
     <string name="fullscreen_review_account_button_primary">Confirmer</string>
     <string name="fullscreen_review_account_title">Passez en revue votre compte</string>
-    <string name="fullscreen_review_account_subtitle">Vous êtes enregistré sur Simplenote avec l’adresse e-mail &lt;b>%1$s&lt;/b>.&lt;br>&lt;br>Les améliorations apportées à la sécurité de votre compte peuvent entraîner la perte de votre compte si vous n’avez plus accès à cette adresse e-mail.</string>
+    <string name="fullscreen_review_account_subtitle">Vous êtes enregistré sur Simplenote avec l’adresse e-mail &lt;b&gt;%1$s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Les améliorations apportées à la sécurité de votre compte peuvent entraîner la perte de votre compte si vous n’avez plus accès à cette adresse e-mail.</string>
     <string name="description_warning">Avertissement</string>
     <string name="description_mail">E-mail</string>
     <string name="description_close">Fermer</string>
@@ -56,10 +56,10 @@ Language: fr
     <string name="tag_error_exists">Cette étiquette existe déjà.</string>
     <string name="tag_error_empty">Les étiquettes ne peuvent pas être vides.</string>
     <string name="dialog_tag_error_message">Une erreur est survenue lors de l’ajout de l’étiquette. Veuillez réessayer. Si le problème persiste, contactez-nous au %1$s%2$s%3$s%4$s%5$s pour obtenir de l’aide.</string>
-    <string name="dialog_tag_add_title">@string/add_tag</string>
-    <string name="dialog_tag_add_hint">@string/tag_name</string>
-    <string name="dialog_tag_add_button_positive">@string/save</string>
-    <string name="dialog_tag_add_button_negative">@android:string/cancel</string>
+    <string name="dialog_tag_add_title">\@string/add_tag</string>
+    <string name="dialog_tag_add_hint">\@string/tag_name</string>
+    <string name="dialog_tag_add_button_positive">\@string/save</string>
+    <string name="dialog_tag_add_button_negative">\@android:string/cancel</string>
     <string name="add_tag">Ajouter le mot-clé</string>
     <string name="empty_tags_hint">Lorsque vous ajoutez des étiquettes à vos notes, vos étiquettes apparaissent ici.</string>
     <string name="membership_premium">Premium</string>
@@ -105,8 +105,8 @@ Language: fr
     <string name="export_message_failure">Les données n’ont pas pu être enregistrées</string>
     <string name="export_file">simplenote.json</string>
     <string name="rename_tag_message_length">L’étiquette est trop longue. Réessayez avec un nom plus court. Si le problème persiste, contactez-nous au %1$s%2$s%3$s%4$s%5$s pour obtenir de l’aide.</string>
-    <string name="rename_tag_message">Une erreur s’est produite lors du changement de nom de l’étiquette. Veuillez réessayer. Si le problème persiste, contactez-nous au %1$s%2$s%3$s%4$s%5$s pour obtenir de l’aide.</string>
-    <string name="rename_tag_error_spaces">Les étiquettes ne peuvent pas contenir d’espace</string>
+    <string name="rename_tag_message" formatted="false">Une erreur s’est produite lors du changement de nom de l’étiquette. Veuillez réessayer. Si le problème persiste, contactez-nous au %1$s%2$s%3$s%4$s%5$s pour obtenir de l’aide.</string>
+    <string name="rename_tag_error_spaces" formatted="false">Les étiquettes ne peuvent pas contenir d’espace</string>
     <string name="rename_tag_error_length">L’étiquette est trop longue.</string>
     <string name="rename_tag_error_empty">Les étiquettes ne peuvent pas être vides.</string>
     <string name="simperium_url">http://simplenote.com</string>
@@ -190,7 +190,7 @@ Language: fr
     <string name="search_hint">Rechercher dans les notes ou les étiquettes</string>
     <string name="log_out">Déconnexion</string>
     <string name="log_in">Connexion</string>
-    <string name="simperium_title">@string/app_name</string>
+    <string name="simperium_title">\@string/app_name</string>
     <string name="simperium_subtitle">La manière la plus simple de conserver des notes.</string>
     <string name="simperium_hint_password">Mot de passe</string>
     <string name="simperium_hint_email">E-mail</string>

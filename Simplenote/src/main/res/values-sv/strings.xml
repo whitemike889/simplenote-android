@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Translation-Revision-Date: 2021-03-24 11:54:04+0000
 Plural-Forms: nplurals=2; plural=n != 1;
@@ -26,11 +26,11 @@ Language: sv_SE
     <string name="toast_email_sent">E-post skickad</string>
     <string name="fullscreen_verify_email_button_secondary">Skicka e-post igen</string>
     <string name="fullscreen_verify_email_title">Verifiera din e-post</string>
-    <string name="fullscreen_verify_email_subtitle">Vi har skickat en e-postverifiering till &lt;b>%1$s&lt;/b>.  Kontrollera din inkorg och följ instruktionerna.</string>
+    <string name="fullscreen_verify_email_subtitle">Vi har skickat en e-postverifiering till &lt;b&gt;%1$s&lt;/b&gt;.  Kontrollera din inkorg och följ instruktionerna.</string>
     <string name="fullscreen_review_account_button_secondary">Ändra e-post</string>
     <string name="fullscreen_review_account_button_primary">Bekräfta</string>
     <string name="fullscreen_review_account_title">Granska ditt konto</string>
-    <string name="fullscreen_review_account_subtitle">Du är registrerad hos Simplenote med e-postadressen &lt;b>%1$s&lt;/b>.&lt;br>&lt;br>Förbättringar av kontosäkerhet kan leda till kontoförlust om du inte längre har tillgång till den här e-postadressen.</string>
+    <string name="fullscreen_review_account_subtitle">Du är registrerad hos Simplenote med e-postadressen &lt;b&gt;%1$s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Förbättringar av kontosäkerhet kan leda till kontoförlust om du inte längre har tillgång till den här e-postadressen.</string>
     <string name="description_warning">Varning</string>
     <string name="description_mail">E-post</string>
     <string name="description_close">Stäng</string>
@@ -56,10 +56,10 @@ Language: sv_SE
     <string name="tag_error_exists">Etiketten finns redan</string>
     <string name="tag_error_empty">Etiketter får inte vara tomma</string>
     <string name="dialog_tag_error_message">Ett fel uppstod när etiketten lades till. Var vänlig försök igen. Kontakta oss på %1$s%2$s%3$s%4$s%5$s om problemet kvarstår.</string>
-    <string name="dialog_tag_add_title">@string/add_tag</string>
-    <string name="dialog_tag_add_hint">@string/tag_name</string>
-    <string name="dialog_tag_add_button_positive">@string/save</string>
-    <string name="dialog_tag_add_button_negative">@android:string/cancel</string>
+    <string name="dialog_tag_add_title">\@string/add_tag</string>
+    <string name="dialog_tag_add_hint">\@string/tag_name</string>
+    <string name="dialog_tag_add_button_positive">\@string/save</string>
+    <string name="dialog_tag_add_button_negative">\@android:string/cancel</string>
     <string name="add_tag">Lägg till etikett</string>
     <string name="empty_tags_hint">När du lägger till etiketter till dina anteckning kommer de visas här.</string>
     <string name="membership_premium">Premium</string>
@@ -105,8 +105,8 @@ Language: sv_SE
     <string name="export_message_failure">Data kunde inte sparas</string>
     <string name="export_file">simplenote.json</string>
     <string name="rename_tag_message_length">Etiketten är för lång. Försök igen med ett kortare namn. Kontakta oss på %1$s%2$s%3$s%4$s%5$s om problemet kvarstår.</string>
-    <string name="rename_tag_message">Ett fel uppstod när etikettens namn skulle ändras. Var vänlig försök igen. Kontakta oss på %1$s%2$s%3$s%4$s%5$s om problemet kvarstår.</string>
-    <string name="rename_tag_error_spaces">Etiketter får inte innehålla blanksteg</string>
+    <string name="rename_tag_message" formatted="false">Ett fel uppstod när etikettens namn skulle ändras. Var vänlig försök igen. Kontakta oss på %1$s%2$s%3$s%4$s%5$s om problemet kvarstår.</string>
+    <string name="rename_tag_error_spaces" formatted="false">Etiketter får inte innehålla blanksteg</string>
     <string name="rename_tag_error_length">Etiketten är för lång</string>
     <string name="rename_tag_error_empty">Etiketter får inte vara tomma</string>
     <string name="simperium_url">http://simplenote.com</string>
@@ -190,7 +190,7 @@ Language: sv_SE
     <string name="search_hint">Sök anteckningar eller etiketter</string>
     <string name="log_out">Logga ut</string>
     <string name="log_in">Logga in</string>
-    <string name="simperium_title">@string/app_name</string>
+    <string name="simperium_title">\@string/app_name</string>
     <string name="simperium_subtitle">Det enklaste sättet att anteckna på.</string>
     <string name="simperium_hint_password">Lösenord</string>
     <string name="simperium_hint_email">E-post</string>

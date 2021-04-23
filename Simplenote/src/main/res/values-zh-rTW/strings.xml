@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Translation-Revision-Date: 2021-03-24 09:54:04+0000
 Plural-Forms: nplurals=1; plural=0;
@@ -26,11 +26,11 @@ Language: zh_TW
     <string name="toast_email_sent">電子郵件已傳送</string>
     <string name="fullscreen_verify_email_button_secondary">重新傳送電子郵件</string>
     <string name="fullscreen_verify_email_title">驗證你的電子郵件</string>
-    <string name="fullscreen_verify_email_subtitle">我們已傳送一封驗證電子郵件到 &lt;b>%1$s&lt;/b>。 請檢查你的收件匣並依照指示操作。</string>
+    <string name="fullscreen_verify_email_subtitle">我們已傳送一封驗證電子郵件到 &lt;b&gt;%1$s&lt;/b&gt;。 請檢查你的收件匣並依照指示操作。</string>
     <string name="fullscreen_review_account_button_secondary">變更電子郵件</string>
     <string name="fullscreen_review_account_button_primary">確認</string>
     <string name="fullscreen_review_account_title">檢閱你的帳號</string>
-    <string name="fullscreen_review_account_subtitle">你已使用電子郵件地址 &lt;b>%1$s&lt;/b> 註冊 Simplenote。&lt;br>&lt;br>如果你不再擁有存取此電子郵件地址的權限，對帳號安全性的改善項目可能導致帳號遺失。</string>
+    <string name="fullscreen_review_account_subtitle">你已使用電子郵件地址 &lt;b&gt;%1$s&lt;/b&gt; 註冊 Simplenote。&lt;br&gt;&lt;br&gt;如果你不再擁有存取此電子郵件地址的權限，對帳號安全性的改善項目可能導致帳號遺失。</string>
     <string name="description_warning">警告</string>
     <string name="description_mail">郵件</string>
     <string name="description_close">關閉</string>
@@ -56,10 +56,10 @@ Language: zh_TW
     <string name="tag_error_exists">標籤已經存在</string>
     <string name="tag_error_empty">標籤不能為空白</string>
     <string name="dialog_tag_error_message">新增標籤時發生錯誤。 請再試一次。 如果問題持續發生，請聯絡我們尋求協助：%1$s%2$s%3$s%4$s%5$s。</string>
-    <string name="dialog_tag_add_title">@string/add_tag</string>
-    <string name="dialog_tag_add_hint">@string/tag_name</string>
-    <string name="dialog_tag_add_button_positive">@string/save</string>
-    <string name="dialog_tag_add_button_negative">@android:string/cancel</string>
+    <string name="dialog_tag_add_title">\@string/add_tag</string>
+    <string name="dialog_tag_add_hint">\@string/tag_name</string>
+    <string name="dialog_tag_add_button_positive">\@string/save</string>
+    <string name="dialog_tag_add_button_negative">\@android:string/cancel</string>
     <string name="add_tag">新增標籤</string>
     <string name="empty_tags_hint">為筆記新增標籤後，你的標籤會顯示在這裡。</string>
     <string name="membership_premium">進階版</string>
@@ -105,8 +105,8 @@ Language: zh_TW
     <string name="export_message_failure">無法儲存資料</string>
     <string name="export_file">simplenote.json</string>
     <string name="rename_tag_message_length">標籤過長。 請改用較短的名稱再試一次。 如果問題持續發生，請聯絡我們尋求協助：%1$s%2$s%3$s%4$s%5$s。</string>
-    <string name="rename_tag_message">重新命名標籤時發生錯誤。 請再試一次。 如果問題持續發生，請聯絡我們尋求協助：%1$s%2$s%3$s%4$s%5$s。</string>
-    <string name="rename_tag_error_spaces">標籤不可包含空格</string>
+    <string name="rename_tag_message" formatted="false">重新命名標籤時發生錯誤。 請再試一次。 如果問題持續發生，請聯絡我們尋求協助：%1$s%2$s%3$s%4$s%5$s。</string>
+    <string name="rename_tag_error_spaces" formatted="false">標籤不可包含空格</string>
     <string name="rename_tag_error_length">標籤過長</string>
     <string name="rename_tag_error_empty">標籤不能為空白</string>
     <string name="simperium_url">http://simplenote.com</string>
@@ -190,7 +190,7 @@ Language: zh_TW
     <string name="search_hint">搜尋筆記或標籤</string>
     <string name="log_out">登出</string>
     <string name="log_in">登入</string>
-    <string name="simperium_title">@string/app_name</string>
+    <string name="simperium_title">\@string/app_name</string>
     <string name="simperium_subtitle">輕鬆作筆記的最佳方式。</string>
     <string name="simperium_hint_password">密碼</string>
     <string name="simperium_hint_email">電子郵件</string>

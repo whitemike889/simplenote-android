@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Translation-Revision-Date: 2021-03-23 12:54:04+0000
 Plural-Forms: nplurals=2; plural=n != 1;
@@ -26,11 +26,11 @@ Language: it
     <string name="toast_email_sent">E-mail inviata</string>
     <string name="fullscreen_verify_email_button_secondary">Invia di nuovo l\'e-mail</string>
     <string name="fullscreen_verify_email_title">Verifica la tua e-mail</string>
-    <string name="fullscreen_verify_email_subtitle">Abbiamo inviato un\'e-mail di verifica a &lt;b>%1$s&lt;/b>. Controlla la tua casella di posta in arrivo e segui le istruzioni.</string>
+    <string name="fullscreen_verify_email_subtitle">Abbiamo inviato un\'e-mail di verifica a &lt;b&gt;%1$s&lt;/b&gt;. Controlla la tua casella di posta in arrivo e segui le istruzioni.</string>
     <string name="fullscreen_review_account_button_secondary">Cambia e-mail</string>
     <string name="fullscreen_review_account_button_primary">Conferma</string>
     <string name="fullscreen_review_account_title">Verifica il tuo account</string>
-    <string name="fullscreen_review_account_subtitle">Sei registrato su Simplenote con l\'e-mail &lt;b>%1$s&lt;/b>.&lt;br>&lt;br>I miglioramenti alla sicurezza dell\'account possono comportare la perdita dell\'account se non hai più accesso a questo indirizzo e-mail.</string>
+    <string name="fullscreen_review_account_subtitle">Sei registrato su Simplenote con l\'e-mail &lt;b&gt;%1$s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;I miglioramenti alla sicurezza dell\'account possono comportare la perdita dell\'account se non hai più accesso a questo indirizzo e-mail.</string>
     <string name="description_warning">Attenzione</string>
     <string name="description_mail">E-mail</string>
     <string name="description_close">Chiudi</string>
@@ -55,10 +55,10 @@ Language: it
     <string name="tag_error_exists">Il tag esiste già</string>
     <string name="tag_error_empty">I tag non possono essere vuoti</string>
     <string name="dialog_tag_error_message">Si è verificato un errore durante l\'aggiunta del tag. Riprova. Se il problema persiste, contattaci all\'indirizzo %1$s%2$s%3$s%4$s%5$s per ricevere supporto.</string>
-    <string name="dialog_tag_add_title">@string/add_tag</string>
-    <string name="dialog_tag_add_hint">@string/tag_name</string>
-    <string name="dialog_tag_add_button_positive">@string/save</string>
-    <string name="dialog_tag_add_button_negative">@android:string/cancel</string>
+    <string name="dialog_tag_add_title">\@string/add_tag</string>
+    <string name="dialog_tag_add_hint">\@string/tag_name</string>
+    <string name="dialog_tag_add_button_positive">\@string/save</string>
+    <string name="dialog_tag_add_button_negative">\@android:string/cancel</string>
     <string name="add_tag">Aggiungi tag</string>
     <string name="empty_tags_hint">Una volta aggiunti alle tue note, i tag verranno visualizzati qui. </string>
     <string name="membership_premium">Premium</string>
@@ -104,8 +104,8 @@ Language: it
     <string name="export_message_failure">Impossibile salvare i dati</string>
     <string name="export_file">simplenote.json</string>
     <string name="rename_tag_message_length">Il tag è troppo lungo. Riprova con un nome più corto. Se il problema persiste, contattaci all\'indirizzo %1$s%2$s%3$s%4$s%5$s per ricevere supporto.</string>
-    <string name="rename_tag_message">Si è verificato un errore durante la ridenominazione del tag. Riprova. Se il problema persiste, contattaci all\'indirizzo %1$s%2$s%3$s%4$s%5$s per ricevere supporto.</string>
-    <string name="rename_tag_error_spaces">I tag non possono contenere spazi</string>
+    <string name="rename_tag_message" formatted="false">Si è verificato un errore durante la ridenominazione del tag. Riprova. Se il problema persiste, contattaci all\'indirizzo %1$s%2$s%3$s%4$s%5$s per ricevere supporto.</string>
+    <string name="rename_tag_error_spaces" formatted="false">I tag non possono contenere spazi</string>
     <string name="rename_tag_error_length">Tag troppo lungo</string>
     <string name="rename_tag_error_empty">I tag non possono essere vuoti</string>
     <string name="simperium_url">http://simplenote.com</string>
@@ -189,7 +189,7 @@ Language: it
     <string name="search_hint">Cerca note o tag</string>
     <string name="log_out">Esci da questo account</string>
     <string name="log_in">Accedi</string>
-    <string name="simperium_title">@string/app_name</string>
+    <string name="simperium_title">\@string/app_name</string>
     <string name="simperium_subtitle">Prendere nota ora è semplice.</string>
     <string name="simperium_hint_password">Password</string>
     <string name="simperium_hint_email">E-mail</string>
