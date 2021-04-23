@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2021-02-18 11:54:04+0000
+Translation-Revision-Date: 2021-03-24 09:54:04+0000
 Plural-Forms: nplurals=1; plural=0;
 Generator: GlotPress/2.4.0-alpha
 Language: ja_JP
 -->
 <resources>
+    <string name="dialog_already_logged_in_message">すでに %1$s としてログインしています。 ログアウトして再度お試しください。</string>
+    <string name="dialog_already_logged_in_title">すでにログイン済み</string>
+    <string name="support_text">メールが届きませんでしたか ? すでにアカウントをお持ちの可能性があります。 %1$s に問い合わせてサポートを受けてください。</string>
+    <string name="email_confirmation_text">%1$s にメールを送信しました。 受信箱を確認して手順に従ってください。</string>
+    <string name="dialog_message_signup_error">問題が発生しました。 すぐにもう一度実行してください。</string>
     <string name="dialog_browser_exception_toast_copy_success">URL をクリップボードにコピーしました</string>
     <string name="dialog_browser_exception_toast_copy_failure">URL をクリップボードにコピーできませんでした</string>
     <string name="dialog_browser_exception_title">リンクエラー</string>

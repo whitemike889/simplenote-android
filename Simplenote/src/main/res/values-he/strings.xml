@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2021-02-18 11:54:04+0000
+Translation-Revision-Date: 2021-03-24 15:54:04+0000
 Plural-Forms: nplurals=2; plural=n != 1;
 Generator: GlotPress/2.4.0-alpha
 Language: he_IL
 -->
 <resources>
+    <string name="dialog_already_logged_in_message">כבר התחברת עם שם המשתמש ⁦%1$s⁩. יש להתנתק ולנסות שוב.</string>
+    <string name="dialog_already_logged_in_title">כבר התחברת למערכת</string>
+    <string name="support_text">לא קיבלת את הודעת האימייל? ייתכן שכבר יש לך חשבון. ניתן ליצור קשר עם ⁦%1$s⁩ לעזרה.</string>
+    <string name="email_confirmation_text">שלחנו הודעה לאימייל ⁦%1$s⁩. יש לבדוק את תיבת הדואר הנכנס ולפעול לפי ההוראות.</string>
+    <string name="dialog_message_signup_error">נתקלנו בכמה בעיות. יש לנסות שוב בקרוב.</string>
     <string name="dialog_browser_exception_toast_copy_success">כתובת ה-URL הועתקה</string>
     <string name="dialog_browser_exception_toast_copy_failure">לא ניתן היה להעתיק את כתובת ה-URL ללוח</string>
     <string name="dialog_browser_exception_title">שגיאה בקישור</string>

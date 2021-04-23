@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2021-02-19 17:23:33+0000
+Translation-Revision-Date: 2021-03-23 12:54:04+0000
 Plural-Forms: nplurals=2; plural=n != 1;
 Generator: GlotPress/2.4.0-alpha
 Language: it
 -->
 <resources>
+    <string name="dialog_already_logged_in_message">Hai già effettuato l\'accesso come %1$s. Disconnettiti e riprova.</string>
+    <string name="dialog_already_logged_in_title">Accesso già effettuato</string>
+    <string name="support_text">Non ti è arrivata alcuna e-mail? Potresti già avere un account. Contatta %1$s per assistenza.</string>
+    <string name="email_confirmation_text">Abbiamo inviato una e-mail a %1$s. Controlla la tua casella di posta in arrivo e segui le istruzioni.</string>
+    <string name="dialog_message_signup_error">Stiamo riscontrando dei problemi. Riprova a breve.</string>
     <string name="dialog_browser_exception_toast_copy_success">URL copiato negli appunti</string>
     <string name="dialog_browser_exception_toast_copy_failure">Impossibile copiare l\'URL negli appunti</string>
     <string name="dialog_browser_exception_title">Errore link</string>

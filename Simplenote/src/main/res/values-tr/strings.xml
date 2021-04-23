@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2021-02-18 11:54:03+0000
+Translation-Revision-Date: 2021-03-24 11:54:04+0000
 Plural-Forms: nplurals=2; plural=(n > 1);
 Generator: GlotPress/2.4.0-alpha
 Language: tr
 -->
 <resources>
+    <string name="dialog_already_logged_in_message">%1$s olarak zaten giriş yaptınız. Çıkış yapıp tekrar deneyin.</string>
+    <string name="dialog_already_logged_in_title">Zaten Giriş Yapıldı</string>
+    <string name="support_text">E-postayı almadınız mı? Zaten bir hesabınız olabilir. Yardım için %1$s ile iletişime geçin.</string>
+    <string name="email_confirmation_text">%1$s adresine bir e-posta gönderdik. Lütfen gelen kutunuzu kontrol edin ve talimatları izleyin.</string>
+    <string name="dialog_message_signup_error">Sorun yaşanıyor. Lütfen kısa bir süre sonra tekrar deneyin.</string>
     <string name="dialog_browser_exception_toast_copy_success">Adres panoya kopyalandı</string>
     <string name="dialog_browser_exception_toast_copy_failure">URL panoya kopyalanamadı</string>
     <string name="dialog_browser_exception_title">Bağlantı Hatası</string>

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Translation-Revision-Date: 2021-02-19 10:54:03+0000
+Translation-Revision-Date: 2021-03-24 09:54:04+0000
 Plural-Forms: nplurals=1; plural=0;
 Generator: GlotPress/2.4.0-alpha
 Language: zh_TW
 -->
 <resources>
+    <string name="dialog_already_logged_in_message">你已使用 %1$s 的身分登入。 請登出，然後再試一次。</string>
+    <string name="dialog_already_logged_in_title">已登入</string>
+    <string name="support_text">沒收到電子郵件嗎？ 你可能已經有帳號。 請聯絡 %1$s 尋求協助。</string>
+    <string name="email_confirmation_text">我們已將電子郵件傳送至 %1$s。 請檢查你的收件匣並依照指示操作。</string>
+    <string name="dialog_message_signup_error">發生問題， 請接著再試一次。</string>
     <string name="dialog_browser_exception_toast_copy_success">網址已複製到剪貼簿</string>
     <string name="dialog_browser_exception_toast_copy_failure">網址無法複製到剪貼簿</string>
     <string name="dialog_browser_exception_title">連結錯誤</string>
